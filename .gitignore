@@ -1,0 +1,23 @@
+# Secrets & Env
+.env
+.env.*
+!.env.example
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Go (for future backend)
+bin/
+*.exe
+*.test
+*.out
+coverage.out
+vendor/
+
+# Logs
+*.log
