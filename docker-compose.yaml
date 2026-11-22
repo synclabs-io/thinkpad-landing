@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: thinkpad-landing-web
+    restart: unless-stopped
+    ports:
+      - "8081:80"
